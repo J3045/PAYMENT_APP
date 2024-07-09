@@ -3,8 +3,8 @@ const mongoose = require("mongoose");
 require('dotenv').config();
 
 
-// mongoose.connect("mongodb+srv://test_jainik:GTjdlwRFBQgxcBkw@cluster0.xr31vze.mongodb.net/paytm");
-mongoose.connect(process.env.monngo_url);
+
+
 
 const userSchema = new mongoose.Schema({
     username: {
